@@ -92,7 +92,6 @@ services:
             - SSL_KEYSTORE_PASSWORD
             - SSL_TRUSTSTORE_PATH
             - SSL_TRUSTSTORE_PASSWORD
-            - ORG_OPENELISGLOBAL_CONFIGURATION_INSTANCE_ID=jakarta
         volumes:
             -  key_trust-store-volume:/etc/openelis-global
             -  lucene_index-vol:/var/lib/lucene_index
